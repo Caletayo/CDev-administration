@@ -14,12 +14,11 @@
    "clientsettings": {
       "nodes": [
          {
-            "host": "lavalink.devamop.in",
+            "host": "localhost",
             "port": 80,
             "retryAmount": 9.461e+16,
             "version": "v3",
-            "secure": false,
-            "password": "DevamOP",
+            "password": "cdev",
             "useVersionPath": true
          }
       ]
