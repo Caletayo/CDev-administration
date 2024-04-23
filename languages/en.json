@@ -6,7 +6,7 @@
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "botfaq": {
-                "notallowed": "<:no:833101993668771842> You are not allowed to do that! Only: <@{cmduserid}>",
+                "notallowed": "❌ You are not allowed to do that! Only: <@{cmduserid}>",
                 "placeholder": "Click me to make a Selection!",
                 "menuembed": {
                     "title": "Bot Help",
@@ -16,8 +16,8 @@
                     {
                         "value": "Creator / Features",
                         "description": "Who is my Creator? / What are my Features?",
-                        "replymsg": "<:Milrato:840259659163893820> **__Milrato Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://milrato.eu\n> <:Discord:787321652345438228> **Their Discord:** https://discord.gg/milrato\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:twitter:840255600851812393> **Twitter-** & <:Youtube:840260133686870036> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spotify:846090652231663647> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `Tomato#6966` <:TOMATO:858450817665204224>, Contact him if you wanna hire him!**",
-                        "emoji": "840259659163893820"
+                        "replymsg": "💙 **__Milrato Development__ made me!**\n> ✨ **Their Website:** https://milrato.eu\n> ✔️ **Their Discord:** https://discord.gg/milrato\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: 🔵 **Twitter-** & 🔴 **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced 🟢 **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `Tomato#6966` ✅, Contact him if you wanna hire him!**",
+                        "emoji": "💙"
                     },
                     {
                         "value": "Stats",
@@ -34,19 +34,19 @@
                     {
                         "value": "Sponsor / Support us",
                         "description": "Thanks for everything, you'll get something back!",
-                        "replymsg": "**__There are several Sponsor Options:__**\n\n> <:PAYPAL:861207258846330880> **Paypal:**\n> https://paypal.me/MilratoDevelopment\n\n> <:PATREON:861207934070816849> **Patreon:**\n> https://www.patreon.com/MilratoDevelopment?fan_landing=true\n\n> 💸 **Donate via Paysafe, Sofort or others: (1/2)**\n> https://bero-host.de/spenden/qgswlxrzgtll\n\n> 💸 **Donate via Paysafe, Sofort or others: (2/2)**\n> https://mc-host24.de/donate/tomato\n\n> **Every donator** gets the **@DONATOR Role** on:\n> https://discord.gg/milrato\n\n\n> **Every Donator** with more then **10€** Gets a **Free Bot** of his **Choice*!",
-                        "emoji": "861207258846330880"
+                        "replymsg": "**__There are several Sponsor Options:__**\n\n> 🔵 **Paypal:**\n> https://paypal.me/MilratoDevelopment\n\n> 🟠 **Patreon:**\n> https://www.patreon.com/MilratoDevelopment?fan_landing=true\n\n> 💸 **Donate via Paysafe, Sofort or others: (1/2)**\n> https://bero-host.de/spenden/qgswlxrzgtll\n\n> 💸 **Donate via Paysafe, Sofort or others: (2/2)**\n> https://mc-host24.de/donate/tomato\n\n> **Every donator** gets the **@DONATOR Role** on:\n> https://discord.gg/milrato\n\n\n> **Every Donator** with more then **10€** Gets a **Free Bot** of his **Choice*!",
+                        "emoji": "😎"
                     },
                     {
                         "value": "Partners / Sponsors",
                         "description": "We are really proud of our Sponsors and Partners!",
-                        "replymsg": "<:BeroHost:852970925695041646> Our First/Main Sponsor is **Bero-Host.de** <:BeroHost:852970925695041646>\n> <:Like:857334024087011378> **Their Website:** https://bero-host.de\n> <:Discord:787321652345438228> **Their Discord:** https://discord.bero-host.de\n> *They provide us several HIGH QUALTIY __Servers__ which we are using for our HOSTING! **CHECK THEM OUT**!*\n``` ```<:Bittmax:840370610755862529> Our Second Sponsor is **Bittmax.de** <:Bittmax:840370610755862529>\n> <:Like:857334024087011378> **Their Website:** https://bittmax.de\n> <:Discord:787321652345438228> **Their Discord:** https://discord.gg/GgjJZCyYKD\n> *They provide us several __Servers__ which we are using for our PUBLIC BOT HOSTING! **CHECK THEM OUT**!*\n``` ```**__Partners__**\n> ***We currently have `{partnercount} Partners`, which get at least 1 FREE OP BOT***\n``` ```Wanna be a Partner/Sponsor too? Contact us in our <:Discord:787321652345438228> **Discord:** https://discord.gg/milrato and open a Ticket in <#840491251278676008>",
-                        "emoji": "866089513436315698"
+                        "replymsg": "✨ Our First/Main Sponsor is **Bero-Host.de** ✨\n> 👍 **Their Website:** https://bero-host.de\n> 🔰 **Their Discord:** https://discord.bero-host.de\n> *They provide us several HIGH QUALTIY __Servers__ which we are using for our HOSTING! **CHECK THEM OUT**!*\n``` ```🟢 Our Second Sponsor is **Bittmax.de** 🟢 👍 **Their Website:** https://bittmax.de\n> 🟣 **Their Discord:** https://discord.gg/GgjJZCyYKD\n> *They provide us several __Servers__ which we are using for our PUBLIC BOT HOSTING! **CHECK THEM OUT**!*\n``` ```**__Partners__**\n> ***We currently have `{partnercount} Partners`, which get at least 1 FREE OP BOT***\n``` ```Wanna be a Partner/Sponsor too? Contact us in our 🔰 **Discord:** https://discord.gg/milrato and open a Ticket in <#840491251278676008>",
+                        "emoji": "✨"
                     },
                     {
                         "value": "My Bot doesnt work",
                         "description": "If your Bot is not working do this:",
-                        "replymsg": "Contact us in Milrato Development <:Discord:787321652345438228> **Discord:** https://discord.gg/milrato and open a Ticket in <#840332764603351101>\n\n***If it still responds with messages but doesn't work right, then you can try to do: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nMake sure that I have enough Permissions, as well as that the highest Role is high enough!",
+                        "replymsg": "Contact us in Milrato Development ✔️ **Discord:** https://discord.gg/milrato and open a Ticket in <#840332764603351101>\n\n***If it still responds with messages but doesn't work right, then you can try to do: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nMake sure that I have enough Permissions, as well as that the highest Role is high enough!",
                         "emoji": "😓"
                     },
                     {
