@@ -61,21 +61,21 @@
             "botinfo": {
                 "loading": "Getting the Bot-Information-Data",
                 "field1": {
-                    "title": "<:arrow:832598861813776394> General -- Stats",
+                    "title": "✅ General -- Stats",
                     "value": "```yml\nServers: {totalGuilds}\nUsers: {totalMembers}\nConnections: {connectedchannelsamount}```"
                 },
                 "field2": {
-                    "title": "<:arrow:832598861813776394> Bot -- Stats"
+                    "title": "✅ Bot -- Stats"
                 },
                 "field3": {
-                    "title": "<:arrow:832598861813776394> System -- Stats",
+                    "title": "✅ System -- Stats",
                     "value": "```yml\nOS: Linux | Debian\nCPU Usage: {cpu} %\nRAM Usage: {ram} MB```"
                 },
                 "field4": {
-                    "title": "<:arrow:832598861813776394> Developer"
+                    "title": "✅ Developer"
                 },
                 "field5": {
-                    "title": "<:arrow:832598861813776394> Important Links",
+                    "title": "✅ Important Links",
                     "value": "**[Invite Link]({invitelink})・[Support Server](https://discord.gg/milrato)・[Website](https://milrato.eu)**\n**[Get Free Bots](https://discord.gg/milrato)・[Invite Public Version](https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot)**"
                 },
                 "variable1": "`\\`\\`\\`yml\\nName: ${client.user.tag} [${client.user.id}]\\nBot Latency: ${Math.round(Date.now() - message.createdTimestamp)}ms\\nApi Latency: ${Math.round(client.ws.ping)}ms\\nRuntime: ${duration(client.uptime).join(\"︲\")}\\`\\`\\``",
@@ -90,7 +90,7 @@
             "commandcount": {
                 "tempmsg": "GETTING BOT INFORMATION DATA",
                 "title": ":gear: **[`{cmdcount}`] Commands**",
-                "description": ":gear: **[`{catcount}`] Categories**\n:gear: **[`{lines}`] Lines of Code**\n<a:Valid_Code_Developer:858405056238714930> **[`{letters}`] Letters of Code**",
+                "description": ":gear: **[`{catcount}`] Categories**\n:gear: **[`{lines}`] Lines of Code**\n😎 **[`{letters}`] Letters of Code**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "developer": {
@@ -100,19 +100,19 @@
                     "botlist": "Public Bot-List-Website"
                 },
                 "title": "Tomato#6966 | Dev of 4 Orgs | Developer of 1200+ BOTS",
-                "description": "<:arrow:832598861813776394> Hello I am **Tomato** <@442355791412854784> *(`Tomato#6966`)*, and i made more then 1200 different Discord Bots: [My Bot List](https://botlist.milrato.eu)\n\n<:arrow:832598861813776394> I am very proud for all of my verified and not verified Discord Bots, but the Bot I am the most proud of is: [**LAVA MUSIC** | `2021's Best Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n<:arrow:832598861813776394> I made this Bot, and you can get a free Bot too! Just go to: [My Service](https://dc.milrato)\n\n<:arrow:832598861813776394> I am also a **Website** Developer and **Plugin** dev. I made **Modules** like a **SPEECH Module** [SEE IT](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:832598861813776394> Yeah i hope you like my stuff :v: <3",
+                "description": "✅ Hello I am **Tomato** <@442355791412854784> *(`Tomato#6966`)*, and i made more then 1200 different Discord Bots: [My Bot List](https://botlist.milrato.eu)\n\n✅ I am very proud for all of my verified and not verified Discord Bots, but the Bot I am the most proud of is: [**LAVA MUSIC** | `2021's Best Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n✅ I made this Bot, and you can get a free Bot too! Just go to: [My Service](https://dc.milrato)\n\n✅ I am also a **Website** Developer and **Plugin** dev. I made **Modules** like a **SPEECH Module** [SEE IT](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n✅ Yeah i hope you like my stuff :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "djmode": {
                 "nodjroles": "no Dj Roles, aka all Users are Djs",
                 "description": "If a Command is listed here, and at least one role exists, then it means that you have to have this Role, in order to be able to use these listed Commands!",
-                "field1": "<:arrow:832598861813776394> Dj Only Commands active for:",
-                "field2": "<:arrow:832598861813776394> Dj Roles",
+                "field1": "✅ Dj Only Commands active for:",
+                "field2": "✅ Dj Roles",
                 "variable1": "\"🎧 Dj Mode\"",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "emojiinfo": {
-                "error1": "<:no:833101993668771842> Your message does not include a VALID Emoji, please retry by adding a guild specific emoji!",
+                "error1": "❌ Your message does not include a VALID Emoji, please retry by adding a guild specific emoji!",
                 "error2": "Please provide a custom Emoji from **THIS GUILD**",
                 "error3": "Couldn't find an emoji to paste! if it's uniced(standard) and not a guild Emoji, it's not possible!",
                 "embed": {
@@ -141,7 +141,7 @@
                 "variable3": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "enlarge": {
-                "error1": "<:no:833101993668771842> Your message does not include a VALID Emoji, please retry by adding a guild specific emoji!",
+                "error1": "❌ Your message does not include a VALID Emoji, please retry by adding a guild specific emoji!",
                 "error2": "Couldn't find an emoji to paste! if it's uniced(standard) and not a guild Emoji, it's not possible!",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
@@ -155,7 +155,7 @@
                     "botlist": "Public Bot-List-Website"
                 },
                 "title": "Tomato#6966 | Dev of 4 Orgs | Developer of 1200+ BOTS",
-                "description": "<:arrow:832598861813776394> Hello I am **Tomato** <@442355791412854784> *(`Tomato#6966`)*, and i made more then 1200 different Discord Bots: [My Bot List](https://botlist.milrato.eu)\n\n<:arrow:832598861813776394> I am very proud for all of my verified and not verified Discord Bots, but the Bot I am the most proud of is: [**LAVA MUSIC** | `2021's Best Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n<:arrow:832598861813776394> I made this Bot, and you can get a free Bot too! Just go to: [My Service](https://dc.milrato)\n\n<:arrow:832598861813776394> I am also a **Website** Developer and **Plugin** dev. I made **Modules** like a **SPEECH Module** [SEE IT](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:832598861813776394> Yeah i hope you like my stuff :v: <3",
+                "description": "✅ Hello I am **Tomato** <@442355791412854784> *(`Tomato#6966`)*, and i made more then 1200 different Discord Bots: [My Bot List](https://botlist.milrato.eu)\n\n✅ I am very proud for all of my verified and not verified Discord Bots, but the Bot I am the most proud of is: [**LAVA MUSIC** | `2021's Best Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n✅ I made this Bot, and you can get a free Bot too! Just go to: [My Service](https://dc.milrato)\n\n✅ I am also a **Website** Developer and **Plugin** dev. I made **Modules** like a **SPEECH Module** [SEE IT](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n✅ Yeah i hope you like my stuff :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "help": {
@@ -164,12 +164,12 @@
                 "noinfo": "No Information found for the command **{command}**",
                 "footer": "To see command Descriptions and Information, type: {prefix}help [CMD NAME]",
                 "detail": {
-                    "name": "**<:arrow:832598861813776394> Command name**",
-                    "desc": "**<:arrow:832598861813776394> Description**",
-                    "aliases": "**<:arrow:832598861813776394> Aliases**",
-                    "about": "<:arrow:832598861813776394> Detailed Information about: `{cmdname}`",
-                    "cooldown": "**<:arrow:832598861813776394> Cooldown**",
-                    "usage": "**<:arrow:832598861813776394> Usage**",
+                    "name": "**✅ Command name**",
+                    "desc": "**✅ Description**",
+                    "aliases": "**✅ Aliases**",
+                    "about": "✅ Detailed Information about: `{cmdname}`",
+                    "cooldown": "**✅ Cooldown**",
+                    "usage": "**✅ Usage**",
                     "syntax": "Syntax: <> = required, [] = optional"
                 },
                 "buttons": {
@@ -179,7 +179,7 @@
                 },
                 "overview": {
                     "title": ":gear: **__Command Category Overview__**",
-                    "desc": "> <a:yes:833101995723194437> ... **Overview**\n\n> 🔰 ... **Information**\n> 🎶 ... **Music Related**\n> ⚙ ... **Settings & 👑 Owner & ⌨️Programming**\n> 🎤 ... **Voice & 📈 Ranking**\n> 🎮 ... **Mini Games & 🕹️ Fun**\n> 🚫 ... **Administration & 💪 Setup**\n> 🔞 ... **NSFW**\n> 🦾 ... **Custom Commands**\n\n> *Click on the Button Emojis to jump to the Command Category*\n> *Use the Arrows to swap the Pages forward/backward/jump-back-home*"
+                    "desc": "> ✅ ... **Overview**\n\n> 🔰 ... **Information**\n> 🎶 ... **Music Related**\n> ⚙ ... **Settings & 👑 Owner & ⌨️Programming**\n> 🎤 ... **Voice & 📈 Ranking**\n> 🎮 ... **Mini Games & 🕹️ Fun**\n> 🚫 ... **Administration & 💪 Setup**\n> 🔞 ... **NSFW**\n> 🦾 ... **Custom Commands**\n\n> *Click on the Button Emojis to jump to the Command Category*\n> *Use the Arrows to swap the Pages forward/backward/jump-back-home*"
                 },
                 "buttonerror": ":x: **Only the one who typed {prefix}help is allowed to react!**",
                 "timeended": "Time has ended type {prefix}help again!",
@@ -187,11 +187,11 @@
                 "variable2": "`HELP-MENU 🔰 **${category.toUpperCase()} [${items.length}]**`",
                 "variable3": "`**${category.toUpperCase()} [${items.length}]**`, `> \\`${items[0]}\\`\\n\\n**Usage:**\\n> \\`${cmd.usage}\\``",
                 "variable4": "`${items.join(\"︲\")}`",
-                "variable5": "`Information about the <:clanbot:832697296687726654> Clan Bot: __**${client.user.username}**__`",
+                "variable5": "`Information about the ✨ Clan Bot: __**${client.user.username}**__`",
                 "variable6": "`🔰 Information Commands 🔰`",
                 "variable7": "`> ${client.commands.filter((cmd) => cmd.category === \"🔰 Info\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variable8": "`🎶 Music Related Commands :notes:`",
-                "variable9": "`🎶 **Music**${settings.MUSIC ? \" | <a:yes:833101995723194437> ENABLED\" : \" | <:no:833101993668771842> DISABLED\"}\\n> ${client.commands.filter((cmd) => cmd.category === \"🎶 Music\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
+                "variable9": "`🎶 **Music**${settings.MUSIC ? \" | ✅ ENABLED\" : \" | ❌ DISABLED\"}\\n> ${client.commands.filter((cmd) => cmd.category === \"🎶 Music\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variable10": "`🚫 Administration & Setup Commands 💪`",
                 "variable11": "`🚫 **Admin**\\n> ${client.commands.filter((cmd) => cmd.category === \"🚫 Administration\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variablex_12": "\"💪 **Setup**\"", "variable12": "`>>> ${client.commands.filter((cmd) => cmd.category === \"💪 Setup\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
@@ -200,15 +200,15 @@
                 "variablex_15": "\"👑 **Owner**\"", "variable15": "`>>> ${client.commands.filter((cmd) => cmd.category === \"👑 Owner\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variablex_16": "\"⌨️ **Programming**\"", "variable16": "`${client.commands.filter((cmd) => cmd.category === \"⌨️ Programming\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`.substr(0, 1024)",
                 "variable17": "`🎤 Voice & Ranking Commands 📈`",
-                "variable18": "`🎤 **Voice**${settings.VOICE ? \" | <a:yes:833101995723194437> ENABLED\" : \" | <:no:833101993668771842> DISABLED\"}\\n> ${client.commands.filter((cmd) => cmd.category === \"🎤 Voice\").map((cmd) => `${cmd.extracustomdesc}`)}`",
+                "variable18": "`🎤 **Voice**${settings.VOICE ? \" | ✅ ENABLED\" : \" | ❌ DISABLED\"}\\n> ${client.commands.filter((cmd) => cmd.category === \"🎤 Voice\").map((cmd) => `${cmd.extracustomdesc}`)}`",
                 "variablex_19": "\"📈 **Ranking**\"", "variable19": "`>>> ${client.commands.filter((cmd) => cmd.category === \"📈 Ranking\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variable20": "`🎮 Mini Games & Fun Commands 🕹️`",
-                "variable21": "`🕹️ **Fun**${settings.FUN ? \" | <a:yes:833101995723194437> ENABLED\" : \" | <:no:833101993668771842> DISABLED\"}\\n> ${client.commands.filter((cmd) => cmd.category === \"🕹️ Fun\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
+                "variable21": "`🕹️ **Fun**${settings.FUN ? \" | ✅ ENABLED\" : \" | ❌ DISABLED\"}\\n> ${client.commands.filter((cmd) => cmd.category === \"🕹️ Fun\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variable22": "`> ${client.commands.filter((cmd) => cmd.category === \"🔞 NSFW\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variable23": "\"🦾 Custom Commands\"",
                 "variable24": "`🦾 **Custom Commands [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
-                "variable25": "\"<:Milrato:840259659163893820> Bot Creator Company Advertisment\"",
-                "variablex_26": "`<:Milrato:840259659163893820> **__Bot Creator Information__**`", "variable26": "`>>> 💯 This Bot has been made by:\\n[**Milrato Development**](https://milrato.eu)・[Discord](https://discord.com/invite/milrato)<:Discord:787321652345438228> [Click here to order yourself a own one](https://discord.com/invite/milrato)`",
+                "variable25": "\"💙 Bot Creator Company Advertisment\"",
+                "variablex_26": "`💙 **__Bot Creator Information__**`", "variable26": "`>>> 💯 This Bot has been made by:\\n[**Milrato Development**](https://milrato.eu)・[Discord](https://discord.com/invite/milrato)<:Discord:787321652345438228> [Click here to order yourself a own one](https://discord.com/invite/milrato)`",
                 "variable27": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "invite": {
@@ -223,11 +223,11 @@
             "invites": {
                 "author": "Invites of: {usertag}",
                 "field1": {
-                    "value": "<:Like:857334024087011378> {user} _**has invited __{realinvites} Member(s)__**_!"
+                    "value": "👍 {user} _**has invited __{realinvites} Member(s)__**_!"
                 },
                 "field2": {
                     "title": "💡 **That means he/she has:**",
-                    "value": "> <:joines:866356465299488809> {invites} Joins (When the Member Joins the Server)\n> <:leaves:866356598356049930> {leaves} Leaves (When the invited Member left the Server)\n> <:no:833101993668771842> {fake} Fakes (Alt Accounts / Rejoins)"
+                    "value": "> ✨ {invites} Joins (When the Member Joins the Server)\n> ⛔ {leaves} Leaves (When the invited Member left the Server)\n> ❌ {fake} Fakes (Alt Accounts / Rejoins)"
                 },
                 "field3": {
                     "title": "📘 **To Calculate your Invites do:**"
@@ -240,13 +240,13 @@
             },
             "membercount": {
                 "title": "Member-Count Information About:",
-                "field1": "<:arrow:832598861813776394> Total USERS",
-                "field2": "<:arrow:832598861813776394> Total HUMANS",
-                "field3": "<:arrow:832598861813776394> Total BOTS",
-                "field4": "<:arrow:832598861813776394> ONLINE",
-                "field5": "<:arrow:832598861813776394> IDLE",
-                "field6": "<:arrow:832598861813776394> DND",
-                "field7": "<:arrow:832598861813776394> OFFLINE",
+                "field1": "✅ Total USERS",
+                "field2": "✅ Total HUMANS",
+                "field3": "✅ Total BOTS",
+                "field4": "✅ ONLINE",
+                "field5": "✅ IDLE",
+                "field6": "✅ DND",
+                "field7": "✅ OFFLINE",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "modstats": {
