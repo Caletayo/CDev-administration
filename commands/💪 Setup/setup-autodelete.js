@@ -30,18 +30,15 @@ module.exports = {
       async function first_layer(){
         let menuoptions = [{
             value: "Add a Channel",
-            description: `Add a auto delete Messages-Channel`,
-            emoji: ✅
+            description: `Add a auto delete Messages-Channel`
           },
           {
             value: "Remove a Channel",
-            description: `Remove a Channel from the Setup`,
-            emoji: ❌
+            description: `Remove a Channel from the Setup`
           },
           {
             value: "Show all Channels",
-            description: `Show all setup Channels!`,
-            emoji: "📑"
+            description: `Show all setup Channels!`
           }
         ]
         //define the selection
