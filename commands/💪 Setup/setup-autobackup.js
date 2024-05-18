@@ -47,12 +47,12 @@ module.exports = {
           {
             value: !client.settings.get(message.guild.id, "autobackup") ? "Enable Auto-Backups" : "Disable Auto-Backups",
             description: !client.settings.get(message.guild.id, "autobackup") ? "Make a Backup every 2nd Day" : "Don't make automated Server Backups anymore",
-            emoji: !client.settings.get(message.guild.id, "autobackup") ? "833101995723194437" : "833101993668771842"
+            emoji: !client.settings.get(message.guild.id, "autobackup") ? "✅" : "❌"
           },
           {
             value: "Cancel",
             description: `Cancel and stop the Anti-Caps-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "🔴"
           }
         ]
         let Selection = new MessageSelectMenu()
