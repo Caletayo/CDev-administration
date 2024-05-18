@@ -1,5 +1,5 @@
 {
-   "token": "MTIzMTczODc4MDkzNjA0NDU3NQ.GGrTT-.h6HJFzECV_risIH9bj0QDvAbgAUAMug8ieuotw",
+   "token": "MTIyMDU1MzUyNzM4Njk2ODA2NA.GCRq7H._AqBKe1lrazalsxxgwPxybaH6Fd2HP-d0Jx_fw",
    "prefix": "C-",
    "ownerIDS": [
       "1216183624718749746"
@@ -15,7 +15,7 @@
       "nodes": [
          {
             "host": "localhost",
-            "port": 80,
+            "port": 2333,
             "retryAmount": 9.461e+16,
             "version": "v3",
             "password": "cdev",
