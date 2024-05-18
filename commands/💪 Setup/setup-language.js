@@ -46,12 +46,12 @@ module.exports = {
           {
             value: `Change Language`,
             description: "Change the Language of the Bot",
-            emoji: "833101995723194437"
+            emoji: "✅"
           },
           {
             value: `Reset Language`,
             description: "Reset to the Default Language (English)",
-            emoji: "833101993668771842"
+            emoji: "😶‍🌫️"
           },
           {
             value: "Settings",
@@ -61,7 +61,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Ticket-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "🔴"
           }
         ]
         let Selection = new MessageSelectMenu()
