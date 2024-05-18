@@ -259,7 +259,7 @@ module.exports = {
                       {
                         value: "Enable auto Image",
                         description: `I will generate an Image with the Userdata`,
-                        emoji: "865962151649869834"
+                        emoji: "🟢"
                       },
                       {
                         value: "Set Image Background",
@@ -679,7 +679,7 @@ module.exports = {
                 {
                   value: `${client.settings.get(message.guild.id, "welcome.secondchannel") == "nochannel" ? "Set Channel": "Overwrite Channel"}`,
                   description: `${client.settings.get(message.guild.id, "welcome.secondchannel") == "nochannel" ? "Set a Channel where the Welcome Messages should be": "Overwrite the current Channel with a new one"}`,
-                  emoji: "895066899619119105" //
+                  emoji: "✅" //
                 },
                 {
                   value: "Disable Welcome 2",
@@ -844,12 +844,12 @@ module.exports = {
                 {
                   value: "Edit the Message",
                   description: `Edit the Welcome Message ...`,
-                  emoji: "877653386747605032"
+                  emoji: "👍"
                 },
                 {
                   value: `${client.settings.get(message.guild.id, "welcome.invite") ? "Disable InviteInformation": "Enable Invite Information"}`,
                   description: `${client.settings.get(message.guild.id, "welcome.invite") ? "No longer show Information who invited him/her": "Show Information about who invited him/her"}`,
-                  emoji: "877653386747605032"
+                  emoji: "✅"
                 },
                 {
                   value: "Cancel",
@@ -933,7 +933,7 @@ module.exports = {
                       {
                         value: "Enable auto Image",
                         description: `I will generate an Image with the Userdata`,
-                        emoji: "865962151649869834"
+                        emoji: "🟢"
                       },
                       {
                         value: "Set Image Background",
@@ -1365,7 +1365,7 @@ module.exports = {
                 {
                   value: "Cancel",
                   description: `Cancel and stop the Welcome-Setup!`,
-                  emoji: "862306766338523166"
+                  emoji: "🔴"
                 }
               ]
               //define the selection
