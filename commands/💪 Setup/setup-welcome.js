@@ -35,12 +35,12 @@ module.exports = {
           {
             value: "Channel Welcome Messages",
             description: `Manage Welcome Messages in 1 CHANNEL`,
-            emoji: "895066899619119105" //
+            emoji: "🍕" //
           },
           {
             value: "Channel Welcome Message 2",
             description: `Set a normal msg for a 2nd Channel (without Embed)`,
-            emoji: "895066899619119105" //
+            emoji: "👍" //
           },
           {
             value: "Direct Welcome Messages",
@@ -50,12 +50,12 @@ module.exports = {
           {
             value: "Welcome Roles (On Join)",
             description: `Manage the Welcome Roles. Add/remove/list them!`,
-            emoji: "895066900105674822"
+            emoji: "😊"
           },
           {
             value: "Captcha System (Security)",
             description: `${client.settings.get(message.guild.id, "welcome.captcha") ? "❌ Disable the Captcha-Security-System":"✅ Enable the Captcha-Security-System" }`,
-            emoji: "866089515993792522"
+            emoji: "✅"
           },
           {
             value: `Test Welcome`,
@@ -65,7 +65,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Welcome-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "🔴"
           }
         ]
         //define the selection
@@ -125,7 +125,7 @@ module.exports = {
                 {
                   value: `${client.settings.get(message.guild.id, "welcome.channel") == "nochannel" ? "Set Channel": "Overwrite Channel"}`,
                   description: `${client.settings.get(message.guild.id, "welcome.channel") == "nochannel" ? "Set a Channel where the Welcome Messages should be": "Overwrite the current Channel with a new one"}`,
-                  emoji: "895066899619119105" //
+                  emoji: "💙" //
                 },
                 {
                   value: "Disable Welcome",
@@ -140,17 +140,17 @@ module.exports = {
                 {
                   value: "Edit the Message",
                   description: `Edit the Welcome Message ...`,
-                  emoji: "877653386747605032"
+                  emoji: "🟢"
                 },
                 {
                   value: `${client.settings.get(message.guild.id, "welcome.invite") ? "Disable InviteInformation": "Enable Invite Information"}`,
                   description: `${client.settings.get(message.guild.id, "welcome.invite") ? "No longer show Information who invited him/her": "Show Information about who invited him/her"}`,
-                  emoji: "877653386747605032"
+                  emoji: "✔️"
                 },
                 {
                   value: "Cancel",
                   description: `Cancel and stop the Welcome-Setup!`,
-                  emoji: "862306766338523166"
+                  emoji: "🔴"
                 }
               ]
               //define the selection
@@ -309,7 +309,7 @@ module.exports = {
                       {
                         value: "Cancel",
                         description: `Cancel and stop the Welcome-Setup!`,
-                        emoji: "862306766338523166"
+                        emoji: "🔴"
                       }
                     ]
                     //define the selection
@@ -689,12 +689,12 @@ module.exports = {
                 {
                   value: "Edit the Message",
                   description: `Edit the second Welcome Message ...`,
-                  emoji: "877653386747605032"
+                  emoji: "🔰"
                 },
                 {
                   value: "Cancel",
                   description: `Cancel and stop the Welcome-Setup!`,
-                  emoji: "862306766338523166"
+                  emoji: "❌"
                 }
               ]
               //define the selection
@@ -854,7 +854,7 @@ module.exports = {
                 {
                   value: "Cancel",
                   description: `Cancel and stop the Welcome-Setup!`,
-                  emoji: "862306766338523166"
+                  emoji: "🔴"
                 }
               ]
               //define the selection
@@ -983,7 +983,7 @@ module.exports = {
                       {
                         value: "Cancel",
                         description: `Cancel and stop the Welcome-Setup!`,
-                        emoji: "862306766338523166"
+                        emoji: "🔴"
                       }
                     ]
                     //define the selection
