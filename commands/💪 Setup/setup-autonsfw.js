@@ -45,7 +45,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Auto-Nsfw-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "⛔"
           }
         ]
         //define the selection
@@ -53,7 +53,7 @@ module.exports = {
           .setCustomId('MenuSelection') 
           .setMaxValues(1) //OPTIONAL, this is how many values you can have at each selection
           .setMinValues(1) //OPTIONAL , this is how many values you need to have at each selection
-          .setPlaceholder('Click me to setup the Automated Nsfw System!') 
+          .setPlaceholder('Click me to setup the Automated Nsfw System. (Sistema No soportado.)!') 
           .addOptions(
           menuoptions.map(option => {
             let Obj = {
