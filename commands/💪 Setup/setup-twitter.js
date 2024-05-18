@@ -34,12 +34,12 @@ module.exports = {
         let menuoptions = [{
             value: "Set Twitter Account",
             description: `Define which Twitter Account to watch`,
-            emoji: "840255600851812393"
+            emoji: "🍕"
           },
           {
             value: "Set Poster Channel",
             description: `Define a Channel to post the messages to!`,
-            emoji: "895066899619119105"
+            emoji: "👍"
           },
           {
             value: "Set Posting Message",
@@ -59,7 +59,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Admin-Command-Log-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "🔴"
           }
         ]
         //define the selection
