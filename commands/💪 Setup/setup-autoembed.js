@@ -30,12 +30,10 @@ module.exports = {
         let menuoptions = [{
             value: "Add a Channel",
             description: `Add a auto sending Embed Setup Channel`,
-            emoji: ✅
           },
           {
             value: "Remove a Channel",
             description: `Remove a Channel from the Setup`,
-            emoji: ❌
           },
           {
             value: "Show all Channels",
