@@ -31,7 +31,7 @@ module.exports = {
           {
             value: "Set Discord Channel",
             description: `Define Poster Channel, where Uploads will be`,
-            emoji: "895066899619119105"
+            emoji: "👍"
           },
           {
             value: "Add Youtube Channel",
@@ -46,7 +46,7 @@ module.exports = {
           {
             value: "Edit Youtube Channel",
             description: `Edit one of the added Youtube Accounts`,
-            emoji: "877653386747605032"
+            emoji: "🔴"
           },
           {
             value: "Show Settings",
@@ -56,7 +56,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Ai-Chat-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "❌"
           }
         ]
         //define the selection
