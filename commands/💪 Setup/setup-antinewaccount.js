@@ -65,7 +65,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Anti-New-Account-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "🔴"
           }
         ]
         //define the selection
@@ -107,7 +107,7 @@ module.exports = {
             let SetupNumber = menu?.values[0].split(" ")[0]
             handle_the_picks(menu?.values[0], SetupNumber, menuoptiondata)
           }
-          else menu?.reply({content: `<:no:833101993668771842> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else menu?.reply({content: `❌ You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
@@ -199,7 +199,7 @@ module.exports = {
               {
                 value: "Cancel",
                 description: `Cancel and stop the Anti-New-Account-Setup!`,
-                emoji: "862306766338523166"
+                emoji: "❌"
               }
             ]
             //define the selection
