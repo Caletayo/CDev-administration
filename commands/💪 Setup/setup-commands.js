@@ -97,8 +97,8 @@ module.exports = {
             description: `${client.settings.get(message.guild.id, "ANIME") ? "❌ Disable ANIME Commands" : "✅ Enable ANIME Commands"}`
           },
           {
-            label: "NSFW",
-            value: "NSFW",
+            label: "NSFW (Puede no trabajar)",
+            value: "NSFW (No soportado)",
             emoji: "🔞",
             description: `${client.settings.get(message.guild.id, "NSFW") ? "❌ Disable NSFW Commands" : "✅ Enable NSFW Commands"}`
           },
