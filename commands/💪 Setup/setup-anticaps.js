@@ -38,12 +38,12 @@ module.exports = {
           {
             value: `Enable & Set Anti Caps %`,
             description: "Enable to set an allowed % for CAPS in a Msg",
-            emoji: "833101995723194437"
+            emoji: "👍"
           },
           {
             value: `Disable Anti Spam`,
             description: "Don't delete Messages with CAPS",
-            emoji: "833101993668771842"
+            emoji: "🔴"
           },
           {
             value: "Settings",
@@ -68,7 +68,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Anti-Caps-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "❌"
           }
         ]
         let Selection = new MessageSelectMenu()
