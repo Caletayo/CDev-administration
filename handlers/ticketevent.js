@@ -210,7 +210,7 @@ module.exports = client => {
                         msg.edit({
                             content: `<@${buttonuser.id}>`,
                             embeds: [endedembed],
-                            components: [new MessageActionRow().addComponents(button_ticket_verify.setDisabled(true).setLabel("FAILED TO VERIFY").setEmoji("833101993668771842").setStyle('DANGER'))]
+                            components: [new MessageActionRow().addComponents(button_ticket_verify.setDisabled(true).setLabel("FAILED TO VERIFY").setEmoji("✅").setStyle('DANGER'))]
                         }).catch((e) => {
                             console.log(String(e).grey)
                         });
@@ -242,7 +242,7 @@ module.exports = client => {
                     ]
                 });
             }
-            let button_ticket_verify = new MessageButton().setStyle('SUCCESS').setCustomId('ticket_verify').setLabel("Verify this Step").setEmoji("833101995723194437")
+            let button_ticket_verify = new MessageButton().setStyle('SUCCESS').setCustomId('ticket_verify').setLabel("Verify this Step").setEmoji("✅")
             let msg = await channel.send({
                 content: `<@${buttonuser.id}>`,
                 embeds: [new Discord.MessageEmbed()
