@@ -116,15 +116,15 @@ module.exports = {
         }
         return message.reply({embeds: [embed]});
       } else {
-        let button_back = new MessageButton().setStyle('SUCCESS').setCustomId('1').setEmoji("833802907509719130").setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.back))
+        let button_back = new MessageButton().setStyle('SUCCESS').setCustomId('1').setEmoji("🟢").setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.back))
         let button_home = new MessageButton().setStyle('DANGER').setCustomId('2').setEmoji("🏠").setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.home))
-        let button_forward = new MessageButton().setStyle('SUCCESS').setCustomId('3').setEmoji('832598861813776394').setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.forward))        
+        let button_forward = new MessageButton().setStyle('SUCCESS').setCustomId('3').setEmoji('🔴').setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.forward))        
         let button_tutorial = new MessageButton().setStyle('LINK').setEmoji("840260133686870036").setLabel("Tutorial").setURL("https://youtu.be/E0R7d8gS908")
         let menuOptions = [
           {
             label: "Overview",
             value: "Overview",
-            emoji: "833101995723194437",
+            emoji: "✅",
             description: "My Overview of me!"
           },
           {
