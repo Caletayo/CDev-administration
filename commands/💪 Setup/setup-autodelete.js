@@ -31,12 +31,12 @@ module.exports = {
         let menuoptions = [{
             value: "Add a Channel",
             description: `Add a auto delete Messages-Channel`,
-            emoji: NumberEmojiIds[1]
+            emoji: ✅
           },
           {
             value: "Remove a Channel",
             description: `Remove a Channel from the Setup`,
-            emoji: NumberEmojiIds[2]
+            emoji: ❌
           },
           {
             value: "Show all Channels",
