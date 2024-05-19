@@ -116,7 +116,7 @@ module.exports = {
           {
             value: "Define Channel",
             description: `Define the Channel for this Roster System`,
-            emoji: "895066899619119105"
+            emoji: "🤖"
           },
           {
             value: "Add Roster Role",
