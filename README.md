@@ -33,7 +33,5 @@ That's why I'm asking everyone to [**donate a little bit of money**](https://don
 <details>
   <summary>Haz click para expandir</summary>
 
-  1. Esta fue la última release de este proyecto, estamos manteniendo otro [Nuevo proyecto](https://github.com/Caletayo/Clan-sasukon)
-     * either by: `git clone https://github.com/Tomato6966/Multipurpose-discord-bot`
-  
+  1. Esta fue la última release de este proyecto, estamos manteniendo otro [Nuevo proyecto](https://github.com/Caletayo/Clan-sasukon)  
 </details>
