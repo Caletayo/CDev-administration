@@ -31,7 +31,7 @@ module.exports = {
           {
             value: "Set Discord Channel",
             description: `Define Poster Channel, where Uploads will be`,
-            emoji: "895066899619119105"
+            emoji: "👍"
           },
           {
             value: "Add Youtube Channel",
@@ -46,7 +46,7 @@ module.exports = {
           {
             value: "Edit Youtube Channel",
             description: `Edit one of the added Youtube Accounts`,
-            emoji: "877653386747605032"
+            emoji: "👌"
           },
           {
             value: "Show Settings",
@@ -56,7 +56,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Ai-Chat-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "❌"
           }
         ]
         //define the selection
@@ -79,7 +79,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new MessageEmbed()
           .setColor(es.color)
-          .setAuthor('Youtube-Poster', 'https://cdn.discordapp.com/emojis/840260133686870036.png?size=128', 'https://discord.gg/KCJBVaFGj5')
+          .setAuthor('Youtube-Poster', 'https://cdn.discordapp.com/emojis/1282106196714721354.webp?size=160', 'https://discord.gg/KCJBVaFGj5')
           .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable2"]))
         //send the menu msg
         let menumsg = await message.reply({embeds: [MenuEmbed], components: [new MessageActionRow().addComponents(Selection)]})
@@ -169,7 +169,7 @@ module.exports = {
               var msg = collected.first();
               if(msg && msg.content ){
                 if((msg.content.length > 0 && msg.content.length < 50) &&!msg.content.toLowerCase().includes("youtube") && (!msg.content.toLowerCase().includes("channel") || !msg.content.toLowerCase().includes("c")))
-                  return message.reply("YOU DID NOT SEND A VALID YOUTUBE CHANNEL\nNote, such links doesn't work: `https://youtube.com/Truchorko5566` / `https://youtube.com/channel/UCgGCfLSWYbobojj58MQ0FWA`\nIt must be something like this: `https://www.youtube.com/channel/UC1AgotpFHNhzolUtAjPgZqQ`")
+                  return message.reply("YOU DID NOT SEND A VALID YOUTUBE CHANNEL\nNote, such links doesn't work: `https://youtube.com/@phvdev04` / `https://www.youtube.com/channel/UCGTbFucVXPA9OBTUPZj-TzQ`\nIt must be something like this: `https://www.youtube.com/channel/UCGTbFucVXPA9OBTUPZj-TzQ`")
                 if(client.social_log.get(message.guild.id, "youtube.channels").includes(msg.content))
                   return message.reply({embeds: [new Discord.MessageEmbed()
                     .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-youtube"]["variable11"]))
@@ -400,31 +400,31 @@ module.exports = {
 
  function getNumberEmojis() {
       return [
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>",
-        "<a:Arrow:1259399777351897108>"
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖",
+        "🤖"
         ]
 }

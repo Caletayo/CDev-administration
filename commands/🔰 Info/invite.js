@@ -20,7 +20,7 @@ module.exports = {
       if(user) {
         if(!user.bot) return interaction?.reply({ephemeral: true, content: "<:no:1249307494656901133> You can't Invite a Normal user! **IT MUST BE A BOT**"})
         let button_public_invite = new MessageButton().setStyle('LINK').setLabel(handlemsg(client.la[ls].cmds.info.invite.buttons.public)).setURL("https://discord.com/api/oauth2/authorize?client_id=${user.id}&permissions=8&scope=bot%20applications.commands")
-        let button_support_dc = new MessageButton().setStyle('LINK').setLabel(handlemsg(client.la[ls].cmds.info.invite.buttons.server)).setURL("https://discord.com/gg/Truchorko")
+        let button_support_dc = new MessageButton().setStyle('LINK').setLabel(handlemsg(client.la[ls].cmds.info.invite.buttons.server)).setURL("https://discord.com/gg/phvcommunity")
         let button_invite = new MessageButton().setStyle('LINK').setLabel("Invite " + user.username).setURL(`https://discord.com/api/oauth2/authorize?client_id=${user.id}&permissions=8&scope=bot%20applications.commands`)
         //array of all buttons
         const allbuttons = [new MessageActionRow().addComponents([button_public_invite, button_support_dc, button_invite])]

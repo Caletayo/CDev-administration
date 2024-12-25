@@ -394,7 +394,7 @@ module.exports = {
             .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "<:info:1248945038675808338> Info").size}\`] <:info:1248945038675808338> Information Commands <:info:1248945038675808338>`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "🔰 Info").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
-            .addField(`<a:users:1204230450676240395> **User Commands**`, ">>> " + client.commands.filter((cmd) => cmd.category === "🔰 Info" && cmd.type === "user").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField(`<:users:1260949213986951301> **User Commands**`, ">>> " + client.commands.filter((cmd) => cmd.category === "🔰 Info" && cmd.type === "user").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField(`<:games:1191029575765983254> **Games Related Commands**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "🔰 Info" && cmd.type === "games").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField(`<:discord:1161640446649434112> **Server Related Commands**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "🔰 Info" && cmd.type === "server").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField(`<:Type_Bot:1156893380991791114> **Bot Related Commands**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "🔰 Info" && cmd.type === "bot").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
@@ -403,42 +403,42 @@ module.exports = {
 
           //ECONOMY COMMANDS
           var embed1 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "💸 Economy").size}\`] <:economy:1248941201168535573> Economy Commands <:economy:1248941201168535573> | ${settings.ECONOMY ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "💸 Economy").size}\`] <:economy:1248941201168535573> Economy Commands <:economy:1248941201168535573> | ${settings.ECONOMY ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "💸 Economy").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
             .addField(`<:Minigames:1204223733582266388> **Mini Game to earn money**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "💸 Economy" && cmd.type === "game").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField(`<:clock:1204234343552385095> **Repeatingly earn 💸 via Event(s)**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "💸 Economy" && cmd.type === "earn").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField(`<:banknote:1204294205720236072> **Information & Manage **`,  ">>> " + client.commands.filter((cmd) => cmd.category === "💸 Economy" && cmd.type === "info").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField(`🕣 **Repeatingly earn 💸 via Event(s)**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "💸 Economy" && cmd.type === "earn").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField(`<:economy:1248941201168535573> **Information & Manage **`,  ">>> " + client.commands.filter((cmd) => cmd.category === "💸 Economy" && cmd.type === "info").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             if(!filterdisabled || settings.ECONOMY || settings.showdisabled) embeds.push(embed1)
 
           //SCHOOL COMMANDS
           var embed2 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🏫 School Commands").size}\`] <:School:1204220227534192711> School Commands <:School:1204220227534192711> | ${settings.SCHOOL ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🏫 School Commands").size}\`] <a:a3_school:1260950150709252156> School Commands <a:a3_school:1260950150709252156> | ${settings.SCHOOL ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "🏫 School Commands").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
-            .addField(`<a:MATHS:1204235249916317697> **Mathematics**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "🏫 School Commands" && cmd.type === "math").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField(`<:clock:1204234343552385095> **Time Management**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "🏫 School Commands" && cmd.type === "time").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField(`🏫 **Mathematics**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "🏫 School Commands" && cmd.type === "math").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField(`🕣 **Time Management**`,  ">>> " + client.commands.filter((cmd) => cmd.category === "🏫 School Commands" && cmd.type === "time").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
           if(!filterdisabled || settings.SCHOOL || settings.showdisabled) embeds.push(embed2)
 
           //MUSIC COMMANDS type: song, queue, queuesong, bot
           var embed3 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🎶 Music").size}\`] <a:Music:1204226511016693770> Music Commands <a:Music:1204226511016693770> | ${settings.MUSIC ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🎶 Music").size}\`] <a:Music:1204226511016693770> Music Commands <a:Music:1204226511016693770> | ${settings.MUSIC ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "🎶 Music").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
-            .addField("<:queue:1204115779776417822> **Queue Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🎶 Music" && cmd.type.includes("queue")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField("<a:audio_va:1204236825791565875> **Song Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🎶 Music" && cmd.type.includes("song")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField("<:Type_Bot:1156893380991791114> **Bot Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🎶 Music" && cmd.type.includes("bot")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("<:queue:1204115779776417822> **Queue Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🎶 Music" && cmd.type === "queue").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("<a:audio_va:1204236825791565875> **Song Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🎶 Music" && cmd.type === "song").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("<:Type_Bot:1156893380991791114> **Bot Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🎶 Music" && cmd.type === "bot").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             if(!filterdisabled || settings.MUSIC || settings.showdisabled) embeds.push(embed3)
 
           //FILTER COMMANDS
           var embed4 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "👀 Filter").size}\`] <a:filter:1204220770314747994> Filter Commands <a:filter:1204220770314747994> | ${settings.FILTER ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "👀 Filter").size}\`] <a:filter:1204220770314747994> Filter Commands <a:filter:1204220770314747994> | ${settings.FILTER ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "👀 Filter").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
           if(!filterdisabled || settings.FILTER || settings.showdisabled) embeds.push(embed4)
 
           //CUSTOM QUEUE COMMANDS
           var embed5 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "⚜️ Custom Queue(s)").first().extracustomdesc.length}\`] <a:custom:1204221311312723980> Custom Queue(s) Commands <a:custom:1204221311312723980> | ${settings.CUSTOMQUEUE ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "⚜️ Custom Queue(s)").first().extracustomdesc.length}\`] <a:custom:1204221311312723980> Custom Queue(s) Commands <a:custom:1204221311312723980> | ${settings.CUSTOMQUEUE ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "⚜️ Custom Queue(s)").first().extracustomdesc.split(",").map(i => i?.trim()).join(",  ")}*`)
             .addField("\u200b", "\u200b")
             .addField("<:Usage:1204239644045217912> **Usage**", "> "+client.commands.filter((cmd) => cmd.category === "⚜️ Custom Queue(s)").first().usage)
@@ -451,9 +451,9 @@ module.exports = {
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
             .addField("<:discord:1161640446649434112> **Server Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("server")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField("<:channel:1204242537804734544> **Channel Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("channel")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField("<a:ThreadChannel:1204243934381875201> **Thread Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("thread")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField("<a:roles:1204244180399034439> **Role Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("role")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField("<:member:1204244433785061488> **Member Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("member")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("**Thread Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("thread")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("**Role Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("role")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("**Member Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🚫 Administration" && cmd.type.includes("member")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
           embeds.push(embed6)
 
           //SETUP
@@ -463,7 +463,7 @@ module.exports = {
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
             .addField("<:funny:1204245056698191943> **Setups for Entertainment**", "> "+client.commands.filter((cmd) => cmd.category === "💪 Setup" && cmd.type.includes("fun")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField("<a:info:1204245337548787792> **Information & Manage (Bot/Server) Settings**", "> "+client.commands.filter((cmd) => cmd.category === "💪 Setup" && cmd.type.includes("info")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
-            .addField("<:rocket:1204245644013731931> **Most used Systems**", "> "+client.commands.filter((cmd) => cmd.category === "💪 Setup" && cmd.type.includes("system")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("<:Type_Bot:1156893380991791114> **Most used Systems**", "> "+client.commands.filter((cmd) => cmd.category === "💪 Setup" && cmd.type.includes("system")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField("<:Builder:1161359707504648283> **Security Systems**", "> "+client.commands.filter((cmd) => cmd.category === "💪 Setup" && cmd.type.includes("security")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
           embeds.push(embed7)
 
@@ -472,7 +472,7 @@ module.exports = {
             .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "⚙️ Settings").size}\`] <a:cb_settings:1204222003343523840> Settings Commands <a:cb_settings:1204222003343523840>`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "⚙️ Settings").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
-            .addField("<:member:1204244433785061488> **User Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "⚙️ Settings" && cmd.type.includes("user")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
+            .addField("**User Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "⚙️ Settings" && cmd.type.includes("user")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField("<:Type_Bot:1156893380991791114> **Bot Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "⚙️ Settings" && cmd.type.includes("bot")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField("<a:musicop:1204220529477820547> **Music Related Commands**", "> "+client.commands.filter((cmd) => cmd.category === "⚙️ Settings" && cmd.type.includes("music")).sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
           embeds.push(embed8)
@@ -488,13 +488,13 @@ module.exports = {
 
           //Programming Commands
           var embed10 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "⌨️ Programming").size}\`] <:coding:1204222495557681153> Programming Commands <:coding:1204222495557681153> | ${settings.PROGRAMMING ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "⌨️ Programming").size}\`] <:coding:1204222495557681153> Programming Commands <:coding:1204222495557681153> | ${settings.PROGRAMMING ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "⌨️ Programming").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
           if(!filterdisabled || settings.PROGRAMMING || settings.showdisabled) embeds.push(embed10)
 
           //Ranking
           var embed11 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "📈 Ranking").size}\`] <a:Ranking:1204222726860963880> Ranking Commands <a:Ranking:1204222726860963880> | ${settings.RANKING ? "<:enabled:1204107832232775730> ENABLED" : "<:enabled:1204107832232775730> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "📈 Ranking").size}\`] <a:Ranking:1204222726860963880> Ranking Commands <a:Ranking:1204222726860963880> | ${settings.RANKING ? "<:yes:1249307140682940487> ENABLED" : "<:yes:1249307140682940487> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "📈 Ranking").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
             .addField("<:Builder:1161359707504648283> **Manage Rank**", `> ${client.commands.filter((cmd) => cmd.category === "📈 Ranking" && cmd.type === "manage").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}`)
@@ -503,7 +503,7 @@ module.exports = {
 
           //SOUNDBOARD COMMANDS
           var embed12 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🔊 Soundboard").size}\`] <:soundboard_:1204222975914811472> Soundboard Commands <:soundboard_:1204222975914811472> | ${settings.SOUNDBOARD ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🔊 Soundboard").size}\`] <:soundboard_:1204222975914811472> Soundboard Commands <:soundboard_:1204222975914811472> | ${settings.SOUNDBOARD ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
 
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "🔊 Soundboard").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
 
@@ -511,7 +511,7 @@ module.exports = {
 
           //Voice COMMANDS
           var embed13 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🎤 Voice").first().extracustomdesc.length}\`] <a:VOICE:1204223170538774550> Voice Commands <a:VOICE:1204223170538774550> | ${settings.VOICE ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🎤 Voice").first().extracustomdesc.length}\`] <a:VOICE:1204223170538774550> Voice Commands <a:VOICE:1204223170538774550> | ${settings.VOICE ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "🎤 Voice").first().extracustomdesc.split(",").map(i => i?.trim()).join(",  ")}*`)
             .addField("\u200b", "\u200b")
             .addField("<:Usage:1204239644045217912>  **Usage**", "> "+client.commands.filter((cmd) => cmd.category === "🎤 Voice").first().usage)
@@ -519,7 +519,7 @@ module.exports = {
 
           //FUN COMMANDS
           var embed14 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🕹️ Fun").size}\`] <a:fun:1204223507731447828> Fun Commands <a:fun:1204223507731447828> | ${settings.FUN ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🕹️ Fun").size}\`] <a:fun:1204223507731447828> Fun Commands <a:fun:1204223507731447828> | ${settings.FUN ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "🕹️ Fun").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
             .addField("<:image:1204260671798378527> **Fun User Image Commands**", "> "+client.commands.filter((cmd) => cmd.category === "🕹️ Fun" && cmd.type === "user").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
@@ -529,7 +529,7 @@ module.exports = {
 
           //MINIGAMES
           var embed15 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🎮 MiniGames").size}\`] <:games:1191029575765983254> Mini Games Commands <:games:1191029575765983254> | ${settings.MINIGAMES ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "🎮 MiniGames").size}\`] <:games:1191029575765983254> Mini Games Commands <:games:1191029575765983254> | ${settings.MINIGAMES ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
             .addField("<:Games:1204290758006407199> **Text Based Minigames**", "> "+client.commands.filter((cmd) => cmd.category === "🎮 MiniGames" && cmd.type === "text").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
             .addField("<:select_button:1204291023497338892> **Button(s) Minigames**", "> "+client.commands.filter((cmd) => cmd.category === "🎮 MiniGames" && cmd.type === "buttons").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  "))
@@ -539,7 +539,7 @@ module.exports = {
 
           //ANIME EMOTIONS
           var embed16 = new MessageEmbed()
-            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "😳 Anime-Emotions").size}\`] <:AnimeEmotions:1204223939979640893> Anime Commands <:AnimeEmotions:1204223939979640893> | ${settings.ANIME ? "<:enabled:1204107832232775730> ENABLED" : "<:disabled:1204107662392827904> DISABLED"}`)
+            .setTitle(`[\`${client.commands.filter((cmd) => cmd.category === "😳 Anime-Emotions").size}\`] <:AnimeEmotions:1204223939979640893> Anime Commands <:AnimeEmotions:1204223939979640893> | ${settings.ANIME ? "<:yes:1249307140682940487> ENABLED" : "<:no:1249307494656901133> DISABLED"}`)
             .setDescription(`> *${client.commands.filter((cmd) => cmd.category === "😳 Anime-Emotions").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}*`)
             .addField("\u200b", "__**Sub-Categorized Commands:**__")
             .addField("<a:emotions:1204293004098146325> **Anime-Mention-Emotions (or Self.)**", `> ${client.commands.filter((cmd) => cmd.category === "😳 Anime-Emotions" && cmd.type === "mention").sort((a,b) => a.name.localeCompare(b?.name)).map((cmd) => `\`${cmd.name}\``).join(",  ")}`)

@@ -25,7 +25,7 @@ module.exports = (client) => {
           statustext: `<a:loading:1252632587638280295> Waiting for Community Feedback, please vote!`,
           footertext: `Want to suggest / Feedback something? Simply type in this channel!`,
           approveemoji: `833101995723194437`,
-          denyemoji: `833101993668771842`,
+          denyemoji: `1259399777351897108`,
         }
     });
     let settings = client.settings.get(message.guild.id, "suggest");

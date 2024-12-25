@@ -38,7 +38,7 @@ module.exports = {
           {
             value: `${client.settings.get(message.guild.id, `antilink.enabled`) ? "Disable" : "Enable"} Anti Links`,
             description: `${client.settings.get(message.guild.id, `antilink.enabled`) ? "Don't delete other Links" : "Delete other Links"}`,
-            emoji: `${client.settings.get(message.guild.id, `antilink.enabled`) ? "833101993668771842" : "833101995723194437"}`
+            emoji: `${client.settings.get(message.guild.id, `antilink.enabled`) ? "1259399777351897108" : "833101995723194437"}`
           },
           {
             value: "Settings",
@@ -73,7 +73,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Ticket-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "1249307494656901133"
           }
         ]
         let Selection = new MessageSelectMenu()

@@ -42,7 +42,7 @@ module.exports = {
       }else {
         try{
           message.react("♾").catch(()=>{})
-          message.react("833101993668771842").catch(()=>{})
+          message.react("1259399777351897108").catch(()=>{})
         }catch{  }
       }
       //Send Success Message

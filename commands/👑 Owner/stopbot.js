@@ -28,7 +28,7 @@ module.exports = {
     try {
       let clientapp = client.application ? await client.application.fetch().catch(e=>false) : false;
       let guild = client.guilds.cache.get("1156124652272357450")
-      return message.reply({content : `**<:no:1249307494656901133> THIS COMMAND IS DISABLED, go to discord.gg/cJkkCtMV99 and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
+      return message.reply({content : `**<:no:1249307494656901133> THIS COMMAND IS DISABLED,go to support server get it restarted!**\n\n\n> **Path:**
 \`\`\`yml
 ${process.cwd()}
 \`\`\`
@@ -56,7 +56,7 @@ ${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
       : ""}
       `});
 
-      require("child_process").exec(`pm2 stop index.js ROCKET_${process.cwd().split(require("path").sep).pop()}`, (error, stdout, stderr) => {
+      require("child_process").exec(`pm2 stop index.js Bot_${process.cwd().split(require("path").sep).pop()}`, (error, stdout, stderr) => {
         if (error) {
           console.error(`exec error: ${error}`);
           message.reply({content : eval(client.la[ls]["cmds"]["owner"]["stopbot"]["variable4"])})

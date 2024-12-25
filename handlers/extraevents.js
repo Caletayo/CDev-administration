@@ -133,12 +133,13 @@ module.exports = client => {
       .addField("Member Count", `>>> \`\`\`${guild.memberCount}\`\`\``)
       .addField("Servers Bot is in", `>>> \`\`\`${client.guilds.cache.size}\`\`\``)
       .addField("Leave Server:", `>>> \`\`\`${config.prefix}leaveserver ${guild.id}\`\`\``)
+      .addField("Bot Modified By PH#3071 From PHVCOMMUNITY")
       .setThumbnail(guild.iconURL({dynamic: true}));
     for(const owner of config.ownerIDS){
-      //If the Owner is Truchorko, and the Bot is in not a Team Arcades, Public Bot, then dont send information!
-      if(owner == "961930771344523264"){
-        let TruchorkoGuild = client.guilds.cache.get("1156124652272357450");
-        if(TruchorkoGuild && !TruchorkoGuild.me.roles.cache.has("779021235790807050")){
+      
+      if(owner == "961930771344523264"){    //add your discord id here, So you can get a dm from bot if it joins a new server. Made By PHV
+        let OwnerGuild = client.guilds.cache.get("1156124652272357450");
+        if(OwnerGuild && !OwnerGuild.me.roles.cache.has("779021235790807050")){  //don't change this stuff, trust me.
           continue; 
         }
       }
@@ -163,10 +164,10 @@ module.exports = client => {
       .addField("Servers Bot is in", `>>> \`\`\`${client.guilds.cache.size}\`\`\``)
       .setThumbnail(guild.iconURL({dynamic: true}));
     for(const owner of config.ownerIDS){
-      //If the Owner is Truchorko, and the Bot is in not a Team Arcades, Public Bot, then dont send information!
+      
       if(owner == "961930771344523264"){
-        let TruchorkoGuild = client.guilds.cache.get("1156124652272357450");
-        if(TruchorkoGuild && !TruchorkoGuild.me.roles.cache.has("779021235790807050")){
+        let OwnerGuild = client.guilds.cache.get("1156124652272357450");
+        if(OwnerGuild && !OwnerGuild.me.roles.cache.has("779021235790807050")){
           continue; 
         }
       }

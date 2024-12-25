@@ -210,7 +210,7 @@ module.exports = client => {
                         msg.edit({
                             content: `<@${buttonuser.id}>`,
                             embeds: [endedembed],
-                            components: [new MessageActionRow().addComponents(button_ticket_verify.setDisabled(true).setLabel("FAILED TO VERIFY").setEmoji("833101993668771842").setStyle('DANGER'))]
+                            components: [new MessageActionRow().addComponents(button_ticket_verify.setDisabled(true).setLabel("FAILED TO VERIFY").setEmoji("1259399777351897108").setStyle('DANGER'))]
                         }).catch((e) => {
                             console.log(String(e).grey)
                         });
@@ -414,7 +414,7 @@ module.exports = client => {
                     msg.edit({
                         content: `<@${buttonuser.id}>`,
                         embeds: [endedembed],
-                        components: [new MessageActionRow().addComponents(button_ticket_verify.setDisabled(true).setLabel("FAILED TO VERIFY").setEmoji("833101993668771842").setStyle('DANGER'))]
+                        components: [new MessageActionRow().addComponents(button_ticket_verify.setDisabled(true).setLabel("FAILED TO VERIFY").setEmoji("1259399777351897108").setStyle('DANGER'))]
                     }).catch((e) => {
                         console.log(String(e).grey)
                     });

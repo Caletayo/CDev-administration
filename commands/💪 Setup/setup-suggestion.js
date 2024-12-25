@@ -84,7 +84,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Suggestion System!`,
-            emoji: "862306766338523166"
+            emoji: "1249307494656901133"
           }
         ]
         //define the selection
@@ -147,7 +147,7 @@ module.exports = {
           statustext: `<a:loading:1252632587638280295> Waiting for Community Feedback, please vote!`,
           footertext: `Want to suggest / Feedback something? Simply type in this channel!`,
           approveemoji: `833101995723194437`,
-          denyemoji: `833101993668771842`,
+          denyemoji: `1259399777351897108`,
         }
     });
       */

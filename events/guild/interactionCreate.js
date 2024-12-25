@@ -149,7 +149,7 @@ module.exports = async (client, interaction) => {
             return interaction?.reply({embeds: [new MessageEmbed()
               .setColor(ee.wrongcolor)
               .setFooter({text: `${ee.footertext}`, iconURL: `${ee.footericon}`})
-              .setTitle(` <: no: 833101993668771842 > ** You are not a DJ and not the Song Requester! ** `)
+              .setTitle(` <: no: 1259399777351897108 > ** You are not a DJ and not the Song Requester! ** `)
               .setDescription(` ** DJ - ROLES: ** \n${check_if_dj(client, interaction?.member, player.queue.current)}`)
             ],
             ephemeral: true});

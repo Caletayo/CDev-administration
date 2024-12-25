@@ -481,7 +481,7 @@ module.exports = (client) => {
 * @INFO
 * Read out LICENSE.MD
 * @INFO
-* Please mention Him / Team Arcades, when using this Code!
+* Please mention Him / PHV COMMUNITY, when using this Code!
 * @INFO
 */
 

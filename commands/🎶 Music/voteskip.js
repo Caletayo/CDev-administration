@@ -8,8 +8,8 @@ const {
   autoplay
 } = require(`${process.cwd()}/handlers/functions`);
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
-/*module.exports = {
-  name: `voteskip`,
+module.exports = {
+  name: `voteskip`,     //this command was disabled by Tomato6966, but I (PHV)(Ultrondev)(Kraken) Enabled it and made it work
   category: `🎶 Music`,
   aliases: [`skip`, `vs`, `s`],
   description: `Skips the track, but if there is a DJ Setup u will have to vote first!`,
@@ -112,12 +112,12 @@ const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     }
   }
 };
-*//**
+/*
  * @INFO
  * //MODIFIED BY PHV DEVELOPMENT. | https://discord.gg/KCJBVaFGj5
  * @INFO
  * Read out LICENSE.MD
  * @INFO
 //2021-2024
- * @INFO
  */
+ 

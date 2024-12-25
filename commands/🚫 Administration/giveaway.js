@@ -148,13 +148,13 @@ module.exports = {
                     },
                     bonusEntries: [],
                     messages: {
-                        inviteToParticipate: "***React with <a:Tada_Yellow:867721863151747092> to participate!***\n",
+                        inviteToParticipate: "***React with <:gtada:1260948220985741453> to participate!***\n",
                         drawing: "> Ends: {timestamp}\n",
                         hostedBy: "**Hosted by:** {this.hostedBy}",
-                        dropMessage: "Be the first to react with <a:Tada_Yellow:867721863151747092>",
+                        dropMessage: "Be the first to react with <:gtada:1260948220985741453>",
                         noWinner: "\n**Giveaway cancelled!**\n> No valid participations. :cry:",
                         endedAt: "Ends at", 
-                        giveaway: '<a:Tada_Yellow:867721863151747092> **GIVEAWAY STARTED** <a:Tada_Yellow:867721863151747092>',
+                        giveaway: '<:gtada:1260948220985741453> **GIVEAWAY STARTED** <:gtada:1260948220985741453>',
                         giveawayEnded: '<a:Tada_Green:867721862858539048> **GIVEAWAY ENDED** <a:Tada_Green:867721862858539048>',
                         winMessage: '**Congrats** {winners}!\n> You won **{this.prize}**!\n> **Jump:** {this.messageURL}\nHosted by: {this.hostedBy}',
                         embedFooter: '{this.winnerCount} Winner{this.winnerCount > 1 ? "s" : ""}'

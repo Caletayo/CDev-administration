@@ -38,7 +38,7 @@ The Sponsor of this Bot is:
 [**Discord Server**](https://discord.gg/ZvxjnDrFDP)
 `)
         .setImage("https://assets-global.website-files.com/65eaee8033276fa7b781921d/65eaef8d131af029c9cad497_logo.png")
-        .setFooter("EnderCloud Hosting", "https://assets-global.website-files.com/65eaee8033276fa7b781921d/65eaef8d131af029c9cad497_logo.png");
+        .setFooter("Bots Request | PHV", "https://assets-global.website-files.com/65eaee8033276fa7b781921d/65eaef8d131af029c9cad497_logo.png");
 
       swap_pages2(client, message, [embed1]);
     } catch (e) {

@@ -7,11 +7,11 @@ const {
   databasing
 } = require(`${process.cwd()}/handlers/functions`);
 module.exports = {
-  name: "say",
+  name: "echo",
   category: "🚫 Administration",
   aliases: [""],
   cooldown: 2,
-  usage: "say <TEXT>",
+  usage: "echo <TEXT>",
   description: "Resends your Text",
   type: "server",
   run: async (client, message, args, cmduser, text, prefix) => {
@@ -94,7 +94,7 @@ module.exports = {
 }
 /**
  * @INFO
- * //MODIFIED BY PHV DEVELOPMENT. | https://github?.com/Truchorko5566/Discord-Js-Handler-Template
+ * //MODIFIED BY PHV DEVELOPMENT. | https://github.com/PHV08/MultipurposeV5
  * @INFO
  * Read out LICENSE.MD
  * @INFO

@@ -19,7 +19,7 @@ module.exports = {
   type: "security",
   run: async (client, message, args, cmduser, text, prefix) => {
     let es = client.settings.get(message.guild.id, "embed");let ls = client.settings.get(message.guild.id, "language");
-    //only allow the Server owner, (&Truchorko) to execute this Command, (Truchorko just because if he needs to help for Shop Bots)
+    
     if(message.author.id != message.guild.ownerId){
       if(message.author.id != "961930771344523264")
         return message.reply({content: eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable1"])})
@@ -248,22 +248,22 @@ module.exports = {
           {
             value: "Information",
             description: `Show Information about the Anti Nuke System`,
-            emoji: "869468766529003560"
+            emoji: "1259399777351897108"
           },
           {
             value: "Manage Whitelist",
             description: `Allow/Deny Roles/Users who should not get affected`,
-            emoji: "857334024087011378"
+            emoji: "1259399777351897108"
           },
           {
             value: "Manage Settings",
             description: `Enable/Disable & Change the Anti Nuke Settings`,
-            emoji: "866089513654419466"
+            emoji: "1259399777351897108"
           },
           {
             value: "Suggested Settings",
             description: `Use our suggested Settings!`,
-            emoji: "866089515993792522"
+            emoji: "1259399777351897108"
           },
           {
             value: "Sync Quarantine Role",
@@ -274,7 +274,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Anti-Nuke-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "1249307494656901133"
           }
         ]
         //define the selection
@@ -334,42 +334,42 @@ module.exports = {
               {
                 value: "General Users/Roles",
                 description: `Add/Remove General Users/Roles`,
-                emoji: "866089515993792522"
+                emoji: "1259399777351897108"
               },
               {
                 value: "Anti Bot Add Users/Roles",
                 description: `Add/Remove Anti-Bot-Add Users/Roles`,
-                emoji: "843943149902626846"
+                emoji: "1259399777351897108"
               },
               {
                 value: "Anti Kick/Ban Users/Roles",
                 description: `Add/Remove Anti-Kick/Ban Users/Roles`,
-                emoji: "843943149868023808"
+                emoji: "1259399777351897108"
               },
               {
                 value: "Anti Create Role Users/Roles",
                 description: `Add/Remove Anti-Create-Role Users/Roles`,
-                emoji: "843943149914554388"
+                emoji: "1259399777351897108"
               },
               {
                 value: "Anti Delete Role Users/Roles",
                 description: `Add/Remove Anti-Delete-Role Users/Roles`,
-                emoji: "843943149919535154"
+                emoji: "1259399777351897108"
               },
               {
                 value: "Anti Create Channel Users/Roles",
                 description: `Add/Remove Anti-Create-Channel Users/Roles`,
-                emoji: "843943149759889439"
+                emoji: "1259399777351897108"
               },
               {
                 value: "Anti Delete Channel Users/Roles",
                 description: `Add/Remove Anti-Delete-Channel Users/Roles`,
-                emoji: "843943150468857876"
+                emoji: "1259399777351897108"
               },
               {
                 value: "Cancel",
                 description: `Cancel and stop the Anti-Nuke-Setup!`,
-                emoji: "862306766338523166"
+                emoji: "1259399777351897108"
               }
             ]
             //define the selection
@@ -915,57 +915,57 @@ module.exports = {
                 {
                   value: client.Anti_Nuke_System.get(message.guild.id, "all.enabled") ? "Disable complete AntiNuke": "Enable complete Anti Nuke",
                   description: client.Anti_Nuke_System.get(message.guild.id, "all.enabled") ? "I will not work anymore": "I will be enabled",
-                  emoji: client.Anti_Nuke_System.get(message.guild.id, "all.enabled") ? "833101993668771842": "833101995723194437"
+                  emoji: client.Anti_Nuke_System.get(message.guild.id, "all.enabled") ? "1259399777351897108": "1259399777351897108"
                 },
                 {
                   value: "Set Logger",
                   description: `Define a (new) Logger Channel`,
-                  emoji: "866089515993792522"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: client.Anti_Nuke_System.get(message.guild.id, "all.showwhitelistlog") ? "Disable Whitelisted Log": "Enable Whitelisted Log",
                   description: client.Anti_Nuke_System.get(message.guild.id, "all.showwhitelistlog") ? "I will not show when a whitelisted User makes smt": "I will show when a whitelisted User makes smt (I won't do smt tho)",
-                  emoji: client.Anti_Nuke_System.get(message.guild.id, "all.showwhitelistlog") ? "833101993668771842": "833101995723194437"
+                  emoji: client.Anti_Nuke_System.get(message.guild.id, "all.showwhitelistlog") ? "1259399777351897108": "1259399777351897108"
                 },
                 {
                   value: "Modify Quarantine Role",
                   description: "Remove/add the Qurantine Role",
-                  emoji: "865686493016096809"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: "Anti Bot Add",
                   description: `Adjust the Settings of the Anti Bot Add System`,
-                  emoji: "843943149902626846"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: "Anti Kick/Ban",
                   description: `Adjust the Settings of the Anti Kick/Ban System`,
-                  emoji: "843943149868023808"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: "Anti Create Role",
                   description: `Adjust the Settings of the Anti Create Role System`,
-                  emoji: "843943149914554388"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: "Anti Delete Role",
                   description: `Adjust the Settings of the Anti Delete Role System`,
-                  emoji: "843943149919535154"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: "Anti Create Channel",
                   description: `Adjust the Settings of the Anti Create Channel System`,
-                  emoji: "843943149759889439"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: "Anti Delete Channel",
                   description: `Adjust the Settings of the Anti Delete Channel System`,
-                  emoji: "843943150468857876"
+                  emoji: "1259399777351897108"
                 },
                 {
                   value: "Cancel",
                   description: `Cancel and stop the Anti-Nuke-Setup!`,
-                  emoji: "862306766338523166"
+                  emoji: "1259399777351897108"
                 }
               ]
               //define the selection
@@ -1150,17 +1150,17 @@ module.exports = {
                         {
                           value: "Remove Roles / Day",
                           description: `Amount of Actions / Day to remove the Roles`,
-                          emoji: "895066900105674822"
+                          emoji: "1259399777351897108"
                         },
                         {
                           value: "Remove Roles / Week",
                           description: `Amount of Actions / Week to remove the Roles`,
-                          emoji: "895066900105674822"
+                          emoji: "1259399777351897108"
                         },
                         {
                           value: "Remove Roles / Month",
                           description: `Amount of Actions / Month to remove the Roles`,
-                          emoji: "895066900105674822"
+                          emoji: "1259399777351897108"
                         },
                         {
                           value: "Kick / Day",
@@ -1196,7 +1196,7 @@ module.exports = {
                         {
                           value: "Cancel",
                           description: `Cancel and stop the Ticket-Setup!`,
-                          emoji: "862306766338523166"
+                          emoji: "1259399777351897108"
                         }
                       ]
                       //define the selection
@@ -1533,7 +1533,7 @@ module.exports = {
               return menu?.reply({content: eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable93"])})
             }
             menu?.reply({content: eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable94"])})
-            for(const ch of channels.map(this_Code_is_by_Truchorko_6966 => this_Code_is_by_Truchorko_6966)){
+            for(const ch of channels.map(this_Code_is_by_PHV_3071 => this_Code_is_by_PHV_3071)){
               try {
                 if(ch) {
                   if(ch.permissionsFor(ch.guild.me).has(Permissions.FLAGS.MANAGE_CHANNELS)){

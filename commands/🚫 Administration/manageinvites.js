@@ -51,13 +51,13 @@ module.exports = {
           value: "Add Fakes",
           description: "Add a specific Number of Fakes to: " + user.username,
           replymsg: "Please Send the Number of Fake-Invites you want to add to him/her!",
-          emoji: "833101993668771842" //optional
+          emoji: "1259399777351897108" //optional
         },
         {
           value: "Remove Fakes",
           description: "Remove a specific Number of Fakes to: " + user.username,
           replymsg: "Please Send the Number of Fake-Invites you want to remove to him/her!",
-          emoji: "833101993668771842" //optional
+          emoji: "1259399777351897108" //optional
         },
         {
           value: "Add Leaves",
@@ -74,7 +74,7 @@ module.exports = {
         {
           value: "Cancel",
           description: `Cancel and stop the Ticket-Setup!`,
-          emoji: "862306766338523166"
+          emoji: "1249307494656901133"
         }
       ]
       //define the selection

@@ -52,7 +52,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Advertisement Setup!`,
-            emoji: "833101993668771842"
+            emoji: "1259399777351897108"
           }
         ]
         //define the selection
@@ -202,7 +202,7 @@ module.exports = {
                     return message.channel.send({embeds: [new MessageEmbed()
                       .setFooter(client.getFooter(es))
                       .setColor(es.wrongcolor)
-                      .setTitle(`You can't remove Truchorko!`)
+                      .setTitle(`You can't remove Owner!`)
                       .setDescription(`This is a security Option`)
                     ]})
                   }

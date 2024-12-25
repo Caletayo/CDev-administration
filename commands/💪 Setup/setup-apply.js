@@ -328,7 +328,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Ticket-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "1249307494656901133"
           }
         ]
         //define the selection
@@ -3535,11 +3535,11 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://github?.com/Tomato6966/Discord-Js-Handler-Template
+ * Bot Modified by PHV#3071 | https://github?.com/PHV08/MultipurposeV5
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for PHV Development | https://raydon.xyz
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / PHV Development, when using this Code!
  * @INFO
  */
 

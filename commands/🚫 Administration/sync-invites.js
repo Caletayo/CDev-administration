@@ -35,7 +35,7 @@ module.exports = {
 
       }
       let approve = new MessageButton().setStyle('SUCCESS').setCustomId('1').setEmoji("833101995723194437").setLabel("YES DO IT!")
-      let deny = new MessageButton().setStyle('PRIMARY').setCustomId('2').setEmoji("833101993668771842").setLabel("Cancel")
+      let deny = new MessageButton().setStyle('PRIMARY').setCustomId('2').setEmoji("1259399777351897108").setLabel("Cancel")
       let awaitedmsg = await message.reply({   
           embeds: [new MessageEmbed()
             .setColor(es.color).setFooter(client.getFooter(es))

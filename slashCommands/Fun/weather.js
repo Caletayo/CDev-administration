@@ -59,10 +59,10 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/KCJBVaFGj5
+ * Bot Modified by PHV#3071 | https://github?.com/PHV08/MultipurposeV5
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for PHV Development | https://raydon.xyz
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / PHV Development, when using this Code!
  * @INFO
  */

@@ -16,9 +16,9 @@ module.exports = {
     
 		try{
                         return message.reply("<a:loading:937126702000275477> Connecting...")
-      let Truchorkodc = client.guilds.cache.get("1156124652272357450")
-      let Truchorkomembers = await Truchorkodc.members.fetch().catch(() => {});
-      let partnercount = Truchorkomembers.filter(m => m.roles.cache.has("823150244509515807"))
+      let Guilddc = client.guilds.cache.get("1156124652272357450")
+      let Guildmembers = await Guilddc.members.fetch().catch(() => {});
+      let partnercount = Guildmembers.filter(m => m.roles.cache.has("823150244509515807"))
       partnercount = partnercount.map(m=>m.id).length
       
       let menuoptions = [

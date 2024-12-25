@@ -65,7 +65,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Ai-Chat-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "1249307494656901133"
           }
         ]
         //define the selection
@@ -120,7 +120,7 @@ module.exports = {
               var tempmsg = await message.reply({embeds: [new MessageEmbed()
                 .setTitle(eval(client.la[ls]["cmds"]["owner"]["changestatus"]["variable7"]))
                 .setColor(es.color)
-                .setDescription(`Example: \`${prefix}help | ${client.user.username.split(" ")[0]} | by: Team.Arcades.ga\`
+                .setDescription(`Example: \`${prefix}help | ${client.user.username.split(" ")[0]} | by: raydon.xyz\`
       
               *Enter the text now!*`).setFooter(client.getFooter(es))
               .addField("KEYWORDS which get replaced:", `\`{guildcount}\` .. Shows all guilds
@@ -192,7 +192,7 @@ module.exports = {
               var tempmsg = await message.reply({embeds: [new MessageEmbed()
                 .setTitle(eval(client.la[ls]["cmds"]["owner"]["changestatus"]["variable7"]))
                 .setColor(es.color)
-                .setDescription(`Example: \`${prefix}help | ${client.user.username.split(" ")[0]} | by: Team.Arcades.ga\`
+                .setDescription(`Example: \`${prefix}help | ${client.user.username.split(" ")[0]} | by: raydon.xyz\`
       
               *Enter the text now!*`).setFooter(client.getFooter(es))
               .addField("KEYWORDS which get replaced:", `\`{guildcount}\` .. Shows all guilds
@@ -287,7 +287,7 @@ module.exports = {
                     {
                       value: "Cancel",
                       description: `Cancel and stop the Ai-Chat-Setup!`,
-                      emoji: "862306766338523166"
+                      emoji: "1249307494656901133"
                     }
                   ]
                   //define the selection
@@ -363,7 +363,7 @@ module.exports = {
               .setTitle(eval(client.la[ls]["cmds"]["owner"]["changestatus"]["variable22"]))
               .setColor(es.color)
               .setDescription(`
-            Example: \`https://twitch.tv/Truchorko_sanchez\` --> must be a twitch link
+            Example: \`https://twitch.tv/PHV08\` --> must be a twitch link
     
             *Enter the text now!*`).setFooter(client.getFooter(es))
             ]})
@@ -441,7 +441,7 @@ module.exports = {
                     {
                       value: "Cancel",
                       description: `Cancel and stop the Ai-Chat-Setup!`,
-                      emoji: "862306766338523166"
+                      emoji: "1249307494656901133"
                     }
                   ]
                   //define the selection

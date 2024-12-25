@@ -119,7 +119,7 @@ require('./server')();
 /**********************************************************
  * @param {9} Login_to_the_Bot
  *********************************************************/
-client.login(process.env.token || config.token);
+client.login("MTIyMDU1MzUyNzM4Njk2ODA2NA.GryYP2.ZMdRs94IeJBWMW2UJoLQMPMiLZGJt9f5_shURI");
 
 
 /**********************************************************

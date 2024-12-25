@@ -5,7 +5,7 @@ const { MessageEmbed } = require("discord.js")
 const Enmap = require("enmap");
 const serialize = require('serialize-javascript');
 const ee = require(`${process.cwd()}/botconfig/embed.json`);
-console.log("Welcome to SERVICE HANDLER".yellow);
+console.log("Thank you for using this code, Made by Tomato6966 and Modified by PHV#3071".yellow);
 module.exports = (client) => {
   try {
     readdirSync("./commands/").forEach((dir) => {

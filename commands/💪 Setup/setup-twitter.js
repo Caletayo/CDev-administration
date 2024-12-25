@@ -59,7 +59,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Admin-Command-Log-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "1249307494656901133"
           }
         ]
         //define the selection
@@ -453,7 +453,7 @@ module.exports = {
 };
 /**
  * @INFO
- * //MODIFIED BY PHV DEVELOPMENT. | https://github?.com/TruchorkoDev/discord-js-lavalink-Music-Bot-erela-js
+ * //MODIFIED BY PHV DEVELOPMENT. | https://github?.com/PHV08/MultipurposeV5
  * @INFO
  * Read out LICENSE.MD
  * @INFO

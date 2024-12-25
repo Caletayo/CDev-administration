@@ -39,7 +39,7 @@ module.exports = {
         let menuoptions = [
           {
             value: `${client.ad.enabled? "Disable" : "Enable"} Advertisement`,
-            description: `${client.ad.enabled? "Disables the Ads from Bero-Host and Truchorko" : "Enables the Ads from Bero-Host and Truchorko"}`,
+            description: `${client.ad.enabled? "Disables the Ads from Sponsors" : "Enables the Ads from Sponsors"}`,
             emoji: client.ad.enabled? emoji?.react.ERROR : emoji?.react.SUCCESS
           },
           {
@@ -50,7 +50,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Advertisement Setup!`,
-            emoji: "833101993668771842"
+            emoji: "1259399777351897108"
           }
         ]
         //define the selection

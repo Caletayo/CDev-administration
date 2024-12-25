@@ -1,3 +1,9 @@
+/*So you see, this event doesn't work as of 21/07/24 (PHV) 
+this event requires really though modifications to be able to function.
+ if you're a programmer who as better skills than me, fix it XD good luck! 
+ Subscribe to UNKNOWNPHV
+ */
+
 const CronJob = require('cron').CronJob;
 const TikTokScraper = require('tiktok-scraper');
 const { delay } = require('../handlers/functions');
@@ -22,7 +28,7 @@ module.exports = client => {
   client.on('ready', () => {
     client.Jobtiktok.start();
     setTimeout(() => {
-      check(client.guilds.cache.get('1156124652272357450'));
+      check(client.guilds.cache.get('1156124652272357450'));  //change it to your guild id so no errors will be thrown
     });
   });
 
@@ -54,7 +60,7 @@ module.exports = client => {
       client.social_log.get(guild.id, 'tiktok.channels').forEach(async (tiktoker) => {
         console.log(` [TIKTOK] | ${moment().format("ddd DD-MM-YYYY HH:mm:ss.SSSS")} | ${guild.name} :: [${tiktoker}] | Start checking...`.italic.brightMagenta);
         try {
-          const posts = await TikTokScraper.user(String(tiktoker), {
+          const posts = await TikTokScraper.user(String(tiktoker), {  //fixed this line, (PHV3071)
             number: 5,
             by_user_id: true,
             sessionList: ['sid_tt=58ba9e34431774703d3c34e60d584475;']

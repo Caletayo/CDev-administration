@@ -258,7 +258,7 @@ let embedEditing = async(button) => {
 }
 /**
  * @INFO
- * //MODIFIED BY PHV DEVELOPMENT. | https://github?.com/Truchorko5566/Discord-Js-Handler-Template
+ * //MODIFIED BY PHV DEVELOPMENT. | https://github.com/PHV08/MultipurposeV5
  * @INFO
  * Read out LICENSE.MD
  * @INFO

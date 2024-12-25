@@ -26,7 +26,7 @@ module.exports = {
       .setColor(es.color)
       .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-reactionrole"]["variable2"]))
       .setDescription(`
-**How to setup Rockets's Reaction Role!**
+**How to setup Bot's Reaction Role!**
 > 1. React to message __BELOW__ **this** message
 
 > 2. Then, afterwards a new message appears! After that, you can PING the ROLE for the reacted EMOJI

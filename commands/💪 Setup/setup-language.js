@@ -51,7 +51,7 @@ module.exports = {
           {
             value: `Reset Language`,
             description: "Reset to the Default Language (English)",
-            emoji: "833101993668771842"
+            emoji: "1259399777351897108"
           },
           {
             value: "Settings",
@@ -61,7 +61,7 @@ module.exports = {
           {
             value: "Cancel",
             description: `Cancel and stop the Ticket-Setup!`,
-            emoji: "862306766338523166"
+            emoji: "1249307494656901133"
           }
         ]
         let Selection = new MessageSelectMenu()
